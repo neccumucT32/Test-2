@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  height: 100vh;
+  background-color: aqua;
+}
+.container {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: blueviolet;
+}
+.counter {
+  text-align: center;
+}
+input {
+  width: 350px;
+  height: 150px;
+  margin: 20px;
+  padding-left: 5px;
+}
+::placeholder {
+  font-size: 20px;
+}
+.numberSymbol,
+.limitSymbol {
+  display: flex;
+  margin: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.numberSymbol {
+  color: white;
+}
+.limitSymbol {
+  color: red;
+}
